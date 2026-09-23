@@ -1,0 +1,18 @@
+MERC AADO E-COMMERCE - DEPLOY STEPS
+
+1. Extract this ZIP.
+2. Open the extracted project folder in VS Code.
+3. Run: npm install
+4. Run: npm run build
+5. Run: npm run dev (optional local test)
+6. Upload/push the PROJECT FILES to GitHub.
+
+IMPORTANT:
+- Do NOT upload node_modules.
+- Do NOT upload dist.
+- .gitignore already excludes both folders.
+- Vercel should use Framework Preset: Vite.
+- Build Command: npm run build
+- Output Directory: dist
+- Install Command: npm install
+- vercel.json is included so direct refreshes on /shop, /cart, /products/:id, etc. route back to the React app.
